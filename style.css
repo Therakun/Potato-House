@@ -1,0 +1,148 @@
+body {
+    background-color: lightsteelblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+
+    background-color: rgba(149, 163, 226, 0.204);
+    background-image: url("images/bg4.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.title {
+    color: #8E806A;
+    float: right;
+    margin: 25px 15px;
+    letter-spacing: 1px;
+}
+
+.banner h1 {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.banner h2 {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+    font-size: large;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 30%
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(82, 22, 138, 0.6);
+
+    padding: 10px;
+}
+
+.nav ul li a:hover {
+    font-size: 28px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+
+    background-color: cornflowerblue;
+
+    text-align: center;
+    font-size: larger;
+
+    border: 2px solid black;
+
+    display: inline-block;
+
+    margin: 10px;
+
+    overflow: scroll;
+}
+
+.card img {
+    margin-top: 30px;
+    width: 90%;
+}
+
+.card h3 {
+    padding-top: 20px;
+}
+
+hr {
+    border: 5px solid navy;
+    border-radius: 15px;
+}
+
+.content {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.recipe {
+    width: 300px;
+    height: 450px;
+
+    background-color: cornflowerblue;
+
+    text-align: center;
+    font-size: larger;
+
+    border: 2px solid black;
+
+    display: inline-block;
+
+    margin: 10px;
+
+    overflow: scroll;
+}
+
+.recipe img {
+    margin-top: 30px;
+    width: 90%;
+}
+
+.recipe ul {
+    text-align: left;
+}
+
+.footer {
+    margin: 25px;
+    text-align: center;
+    font-size: larger;
+}
+
+.footer a:hover {
+    font-size: 28px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(82, 22, 138, 0.6);
+
+    padding: 10px;
+}
+
+.end {
+    text-align: center;
+    
+}
